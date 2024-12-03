@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    @vite(['resources/css/app.css'])
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Motion Movies</title>
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
-    <!-- @vite(['resources/css/app.css']) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <style>
         body {
             background: url("{{ asset('images/background.jpg') }}") no-repeat center center fixed;
