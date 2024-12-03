@@ -8,7 +8,10 @@
                     <li>Pemrograman Website</li>
                     <li>Laravel 10</li>
                     <li>CRUD</li>
+                    <li>MySQL</li>
                     <li>Autentikasi</li>
+                    <li>Tailwind CSS</li>
+                    <li>Middleware</li>
                 </ul>
             </div>
             <div>

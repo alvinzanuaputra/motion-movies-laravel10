@@ -82,14 +82,14 @@
     </div>
     <div class="flex justify-between">
         <a href="./"
-            class="flex items-center font-semibold text-white gap-x-1 bg-red-500 hover:bg-red-600 px-4 py-2 rounded"><svg
+            class="flex items-center font-semibold text-white gap-x-1 bg-red-500 hover:bg-red-600 px-4 py-1 rounded hover:scale-95 duration-500 transition-all"><svg
                 xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff" viewBox="0 0 256 256">
                 <path
                     d="M232,144a64.07,64.07,0,0,1-64,64H80a8,8,0,0,1,0-16h88a48,48,0,0,0,0-96H51.31l34.35,34.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,85.66,45.66L51.31,80H168A64.07,64.07,0,0,1,232,144Z">
                 </path>
             </svg>Kembali</a>
         <button type="submit"
-            class="flex items-center font-bold gap-x-1 text-white bg-green-500 hover:bg-green-600 px-4 py-2 rounded">
+            class="flex items-center font-bold gap-x-1 text-white bg-green-500 hover:bg-green-600 px-4 py-1 rounded hover:scale-95 duration-500 transition-all">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff" viewBox="0 0 256 256">
                 <path
                     d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z">
