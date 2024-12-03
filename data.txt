@@ -1,0 +1,435 @@
+
+
+[
+    'name' => "Spider-Man: Homecoming",
+    'link' => "https://www.youtube.com/watch?v=rk-dF1lIbIg",
+    'studio' => "Marvel Studios",
+    'release_date' => "2017-07-07",
+    'image' => "images/homecoming.jpg",
+    'paid' => 1,
+    'tags' => "action, superhero"
+],
+[
+    'name' => "The Avengers",
+    'link' => "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+    'studio' => "Marvel Studios",
+    'release_date' => "2012-05-04",
+    'image' => "images/avengers.jpg",
+    'paid' => 1,
+    'tags' => "action, superhero"
+],
+[
+    'name' => "Suzume no Tojimari",
+    'link' => "https://www.youtube.com/watch?v=6R6q2fAp2n4",
+    'studio' => "CoMix Wave Films",
+    'release_date' => "2023-03-08",
+    'image' => "images/suzume.jpg",
+    'paid' => 0,
+    'tags' => "anime, drama"
+],
+[
+    'name' => "Star Wars: Episode IV - A New Hope",
+    'link' => "https://www.youtube.com/watch?v=L-_xHEv0l-w",
+    'studio' => "Lucasfilm",
+    'release_date' => "1977-05-25",
+    'image' => "images/star-wars.jpg",
+    'paid' => 1,
+    'tags' => "sci-fi, adventure"
+],
+[
+    'name' => "Kimi no Na wa",
+    'link' => "https://youtu.be/3KR8_igDs1Y",
+    'studio' => "CoMix Wave Films",
+    'release_date' => "2016-07-03",
+    'image' => "images/kimi-no-na-wa.jpg",
+    'paid' => 0,
+    'tags' => "anime, romance"
+],
+[
+    'name' => "Frozen",
+    'link' => "https://www.youtube.com/watch?v=TbQm5doF_Uc",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2013-11-27",
+    'image' => "images/frozen.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "Your Name.",
+    'link' => "https://www.youtube.com/watch?v=hRfHcp2GjVI",
+    'studio' => "CoMix Wave Films",
+    'release_date' => "2016-08-26",
+    'image' => "images/your-name.jpg",
+    'paid' => 0,
+    'tags' => "anime, fantasy"
+],
+[
+    'name' => "Avengers: Endgame",
+    'link' => "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    'studio' => "Marvel Studios",
+    'release_date' => "2019-04-26",
+    'image' => "images/endgame.jpg",
+    'paid' => 1,
+    'tags' => "action, superhero"
+],
+[
+    'name' => "Toy Story",
+    'link' => "https://www.youtube.com/watch?v=rNk1Wi8SvNc",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "1995-11-22",
+    'image' => "images/toy-story.jpg",
+    'paid' => 1,
+    'tags' => "animation, family"
+],
+[
+    'name' => "Frozen II",
+    'link' => "https://www.youtube.com/watch?v=Zi4LMpSDccc",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2019-11-22",
+    'image' => "images/frozen-ii.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "Black Panther",
+    'link' => "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+    'studio' => "Marvel Studios",
+    'release_date' => "2018-02-16",
+    'image' => "images/black-panther.jpg",
+    'paid' => 1,
+    'tags' => "action, superhero"
+],
+[
+    'name' => "Spirited Away",
+    'link' => "https://www.youtube.com/watch?v=ByXuk9QqQkk",
+    'studio' => "Studio Ghibli",
+    'release_date' => "2001-07-20",
+    'image' => "images/spirited-away.jpg",
+    'paid' => 0,
+    'tags' => "anime, fantasy"
+],
+[
+    'name' => "Coco",
+    'link' => "https://www.youtube.com/watch?v=Rvr68u6k5sI",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2017-11-22",
+    'image' => "images/coco.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "The Lion King",
+    'link' => "https://www.youtube.com/watch?v=4sj1MT05lAA",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "1994-06-15",
+    'image' => "images/lion-king.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "Naruto: The Last Movie",
+    'link' => "https://www.youtube.com/watch?v=Ga7t_DmJAR0",
+    'studio' => "Studio Pierrot",
+    'release_date' => "2014-12-06",
+    'image' => "images/naruto-the-last.jpg",
+    'paid' => 0,
+    'tags' => "anime, action"
+],
+[
+    'name' => "Inception",
+    'link' => "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    'studio' => "Warner Bros.",
+    'release_date' => "2010-07-16",
+    'image' => "images/inception.jpg",
+    'paid' => 1,
+    'tags' => "sci-fi, thriller"
+],
+[
+    'name' => "Howl's Moving Castle",
+    'link' => "https://www.youtube.com/watch?v=iwROgK94zcM",
+    'studio' => "Studio Ghibli",
+    'release_date' => "2004-11-20",
+    'image' => "images/howls-moving-castle.jpg",
+    'paid' => 0,
+    'tags' => "anime, fantasy"
+],
+[
+    'name' => "Interstellar",
+    'link' => "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    'studio' => "Paramount Pictures",
+    'release_date' => "2014-11-07",
+    'image' => "images/interstellar.jpg",
+    'paid' => 1,
+    'tags' => "sci-fi, drama"
+],
+[
+    'name' => "Moana",
+    'link' => "https://www.youtube.com/watch?v=LKFuXETZUsI",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2016-11-23",
+    'image' => "images/moana.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "Toy Story 4",
+    'link' => "https://www.youtube.com/watch?v=wmiIUN-7qhE",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2019-06-21",
+    'image' => "images/toy-story-4.jpg",
+    'paid' => 1,
+    'tags' => "animation, adventure"
+],
+[
+    'name' => "Attack on Titan: Chronicle",
+    'link' => "https://www.youtube.com/watch?v=MGRm4IzK1SQ",
+    'studio' => "Wit Studio",
+    'release_date' => "2020-07-17",
+    'image' => "images/attack-on-titan.jpg",
+    'paid' => 0,
+    'tags' => "anime, action"
+],
+[
+    'name' => "Zootopia",
+    'link' => "https://www.youtube.com/watch?v=jWM0ct-OLsM",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2016-03-04",
+    'image' => "images/zootopia.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Big Hero 6",
+    'link' => "https://www.youtube.com/watch?v=z3biFxZIJOQ",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2014-11-07",
+    'image' => "images/big-hero-6.jpg",
+    'paid' => 1,
+    'tags' => "animation, superhero"
+],
+[
+    'name' => "Dragon Ball Super: Broly",
+    'link' => "https://www.youtube.com/watch?v=FHgm89hKpXU",
+    'studio' => "Toei Animation",
+    'release_date' => "2018-12-14",
+    'image' => "images/db-super-broly.jpg",
+    'paid' => 0,
+    'tags' => "anime, action"
+],
+[
+    'name' => "The Secret World of Arrietty",
+    'link' => "https://www.youtube.com/watch?v=VlMe7PavaRQ",
+    'studio' => "Studio Ghibli",
+    'release_date' => "2010-07-17",
+    'image' => "images/arrietty.jpg",
+    'paid' => 0,
+    'tags' => "anime, fantasy"
+],
+[
+    'name' => "Finding Nemo",
+    'link' => "https://www.youtube.com/watch?v=wZdpNglLbt8",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2003-05-30",
+    'image' => "images/finding-nemo.jpg",
+    'paid' => 1,
+    'tags' => "animation, family"
+],
+[
+    'name' => "Finding Dory",
+    'link' => "https://www.youtube.com/watch?v=3JNLwlcPBPI",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2016-06-17",
+    'image' => "images/finding-dory.jpg",
+    'paid' => 1,
+    'tags' => "animation, family"
+],
+[
+    'name' => "Shrek",
+    'link' => "https://www.youtube.com/watch?v=CwXOrWvPBPk",
+    'studio' => "DreamWorks Animation",
+    'release_date' => "2001-05-18",
+    'image' => "images/shrek.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Kung Fu Panda",
+    'link' => "https://www.youtube.com/watch?v=PXi3Mv6KMzY",
+    'studio' => "DreamWorks Animation",
+    'release_date' => "2008-06-06",
+    'image' => "images/kung-fu-panda.jpg",
+    'paid' => 1,
+    'tags' => "animation, action"
+],
+[
+    'name' => "My Neighbor Totoro",
+    'link' => "https://www.youtube.com/watch?v=92a7Hj0ijLs",
+    'studio' => "Studio Ghibli",
+    'release_date' => "1988-04-16",
+    'image' => "images/totoro.jpg",
+    'paid' => 0,
+    'tags' => "anime, family"
+],
+[
+    'name' => "Aladdin",
+    'link' => "https://www.youtube.com/watch?v=foyufD52aog",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "1992-11-25",
+    'image' => "images/aladdin.jpg",
+    'paid' => 1,
+    'tags' => "animation, adventure"
+],
+[
+    'name' => "Demon Slayer: Mugen Train",
+    'link' => "https://www.youtube.com/watch?v=ATJYac_dORw",
+    'studio' => "Ufotable",
+    'release_date' => "2020-10-16",
+    'image' => "images/demon-slayer.jpg",
+    'paid' => 0,
+    'tags' => "anime, action"
+],
+[
+    'name' => "Ratatouille",
+    'link' => "https://www.youtube.com/watch?v=niD-jYCAMto",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2007-06-29",
+    'image' => "images/ratatouille.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Monsters, Inc.",
+    'link' => "https://www.youtube.com/watch?v=8IBNZ6O2kMk",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2001-11-02",
+    'image' => "images/monsters-inc.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Shrek 2",
+    'link' => "https://www.youtube.com/watch?v=V6X5ti4YlG8",
+    'studio' => "DreamWorks Animation",
+    'release_date' => "2004-05-19",
+    'image' => "images/shrek-2.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Soul",
+    'link' => "https://www.youtube.com/watch?v=xOsLIiBStEs",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2020-12-25",
+    'image' => "images/soul.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "Ponyo",
+    'link' => "https://www.youtube.com/watch?v=CsR3KVgBzSM",
+    'studio' => "Studio Ghibli",
+    'release_date' => "2008-07-19",
+    'image' => "images/ponyo.jpg",
+    'paid' => 0,
+    'tags' => "anime, fantasy"
+],
+[
+    'name' => "The Incredibles",
+    'link' => "https://www.youtube.com/watch?v=eZbzbC9285I",
+    'studio' => "Pixar Animation Studios",
+    'release_date' => "2004-11-05",
+    'image' => "images/the-incredibles.jpg",
+    'paid' => 1,
+    'tags' => "animation, superhero"
+],
+[
+    'name' => "Despicable Me",
+    'link' => "https://www.youtube.com/watch?v=sUkZFetWYY0",
+    'studio' => "Illumination Entertainment",
+    'release_date' => "2010-07-09",
+    'image' => "images/despicable-me.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Madagascar",
+    'link' => "https://www.youtube.com/watch?v=dm-eiFVtRws",
+    'studio' => "DreamWorks Animation",
+    'release_date' => "2005-05-27",
+    'image' => "images/madagascar.jpg",
+    'paid' => 1,
+    'tags' => "animation, adventure"
+],
+[
+    'name' => "Tangled",
+    'link' => "https://www.youtube.com/watch?v=2f516ZLyC6U",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2010-11-24",
+    'image' => "images/tangled.jpg",
+    'paid' => 1,
+    'tags' => "animation, musical"
+],
+[
+    'name' => "Kubo and the Two Strings",
+    'link' => "https://www.youtube.com/watch?v=p4-6qJzeb3A",
+    'studio' => "Laika",
+    'release_date' => "2016-08-19",
+    'image' => "images/kubo.jpg",
+    'paid' => 1,
+    'tags' => "animation, adventure"
+],
+[
+    'name' => "Lilo & Stitch",
+    'link' => "https://www.youtube.com/watch?v=mmC8Rhwksi8",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2002-06-21",
+    'image' => "images/lilo-stitch.jpg",
+    'paid' => 1,
+    'tags' => "animation, family"
+],
+[
+    'name' => "The Lego Movie",
+    'link' => "https://www.youtube.com/watch?v=fZ_JOBCLF-I",
+    'studio' => "Warner Animation Group",
+    'release_date' => "2014-02-07",
+    'image' => "images/lego-movie.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Ice Age",
+    'link' => "https://www.youtube.com/watch?v=cMfeWyVBidk",
+    'studio' => "Blue Sky Studios",
+    'release_date' => "2002-03-15",
+    'image' => "images/ice-age.jpg",
+    'paid' => 1,
+    'tags' => "animation, adventure"
+],
+[
+    'name' => "Coraline",
+    'link' => "https://www.youtube.com/watch?v=LO3n67BQvh0",
+    'studio' => "Laika",
+    'release_date' => "2009-02-06",
+    'image' => "images/coraline.jpg",
+    'paid' => 1,
+    'tags' => "animation, fantasy"
+],
+[
+    'name' => "Wreck-It Ralph",
+    'link' => "https://www.youtube.com/watch?v=87E6N7ToCxs",
+    'studio' => "Walt Disney Animation Studios",
+    'release_date' => "2012-11-02",
+    'image' => "images/wreck-it-ralph.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+[
+    'name' => "Minions",
+    'link' => "https://www.youtube.com/watch?v=eisKxhjBnZ0",
+    'studio' => "Illumination Entertainment",
+    'release_date' => "2015-07-10",
+    'image' => "images/minions.jpg",
+    'paid' => 1,
+    'tags' => "animation, comedy"
+],
+
