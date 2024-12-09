@@ -17,7 +17,7 @@
                     <img src="{{ asset('storage/' . $i->image) }}" alt="{{ asset('images/alt.png') }}"
                         class="w-full h-64 object-cover">
                     <div class="p-4 flex items-center">
-                        <h5 class="text-md font-semibold">{{ \Illuminate\Support\Str::words($i->name, 4, '...') }}</h5>
+                        <h5 class="text-md font-semibold">{{ \Illuminate\Support\Str::words($i->name, 2, '...') }}</h5>
                         <p class="text-gray-400">{{ $i->studio }}</p>
                         <a href="/movie/{{ $i->id }}"
                             class="flex items-center justify-center w-full text-center mt-4 bg-blue-600 text-white py-1 gap-x-1 px-4 rounded hover:bg-blue-700 hover:scale-95 duration-500 transition-all">
@@ -36,7 +36,7 @@
     @else
         <div class="flex py-2 items-center text-xl my-4 text-white gap-2 font-bold">
             <span> | </span>
-            <h2 class="text-2xl font-bold text-white">terbaru</h2>
+            <h2 class="text-2xl font-bold text-white">TERBARU</h2>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
             @foreach ($newMovies as $movie)
@@ -48,7 +48,7 @@
                     <img src="{{ asset('storage/' . $movie->image) }}" alt="{{ asset('images/alt.png') }}"
                         class="w-full h-84 object-cover rounded-md">
                     <div class="p-4">
-                        <h5 class="text-md font-semibold">{{ \Illuminate\Support\Str::words($movie->name, 4, '...') }}</h5>
+                        <h5 class="text-md font-semibold">{{ \Illuminate\Support\Str::words($movie->name, 2, '...') }}</h5>
                         <p class="text-gray-400">{{ $movie->studio }}</p>
                         <a href="/movie/{{ $movie->id }}"
                             class="w-full flex items-center justify-center mt-4 bg-blue-600 text-white py-1 gap-x-1 px-4 rounded hover:bg-blue-700 hover:scale-95 duration-500 transition-all">
@@ -67,7 +67,7 @@
         @for ($i = 0; $i < count($genres); $i++)
             <div class="flex py-2 items-center text-xl my-4 text-white gap-2 font-bold">
                 <span> | </span>
-                <h2 class="text-2xl font-bold text-white">{{ Str($genres[$i]->name) }}</h2>
+                <h2 class="text-2xl font-bold text-white">{{ Str::upper($genres[$i]->name) }}</h2>
             </div>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
                 @foreach ($genres[$i]->movie as $movie)
@@ -80,7 +80,7 @@
                             class="w-full h-84 object-cover object-center rounded-md">
                         <div class="p-4 mt-2 rounded-lg bg-gray-800">
                             <h5 class="text-md font-semibold">{{ \Illuminate\Support\Str::words($movie->name, 2, '...') }}</h5>
-                            <p class="text-gray-400">{{ $movie->studio }}</p>
+                            <p class="text-gray-400">{{ \Illuminate\Support\Str::words($movie->studio, 2, '...') }}</p>
                             <a href="/movie/{{ $movie->id }}"
                                 class="w-full flex items-center justify-center mt-4  bg-blue-600 text-white py-1 gap-x-1 px-4 rounded hover:bg-blue-700 hover:scale-95 duration-500 transition-all">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#fff"

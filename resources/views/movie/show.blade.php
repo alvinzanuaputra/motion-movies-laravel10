@@ -46,7 +46,7 @@ $embedUrl = "https://www.youtube.com/embed/$videoId";
 			</div>
 		</div>
 	</div>
-	<a href="./"
+	<a href="/movie"
 		class="mt-4 gap-x-2 inline-block font-semibold text-white  bg-gray-800 hover:bg-gray-600 px-4 py-2 rounded hover:scale-95 duration-500 transition-all">
 		<div class="flex items-center justify-center ">
 			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 256 256">

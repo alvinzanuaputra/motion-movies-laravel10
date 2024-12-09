@@ -29,8 +29,10 @@
             </div>
             <div>
                 <h3 class="text-lg font-bold mb-4 underline">Lokasi</h3>
-                <p>Semolowaru Utara VIII / 21, Sukolilo, Jawa Timur, Indonesia 60119</p>
-                <p>Institut Teknologi Sepuluh Nopember</p>
+                <div class="text-sm">
+                    <p>Semolowaru Utara VIII / 21, Sukolilo, Jawa Timur, Indonesia 60119</p>
+                    <p>Institut Teknologi Sepuluh Nopember</p>
+                </div>
             </div>
         </div>
         <div class="flex items-center gap-2 mt-6">
@@ -76,7 +78,7 @@
         </div>
         <div class="text-xs md:text-sm font-semibold flex md:justify-end py-4 pr-8">
             <p>Kuliah Pemrograman Web Jurusan Teknik Informatika ITS (2024).
-            Dosen: Imam Kuswardayan, S.Kom, M.T.</p>
+                Dosen: Imam Kuswardayan, S.Kom, M.T.</p>
         </div>
     </div>
 </footer>

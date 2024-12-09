@@ -207,7 +207,7 @@
                         </svg>
                     </button>
                     <ul id="dropdown-menu-mobile"
-                        class="hidden fixed top-44 z-50 mt-2 w-1/2 rounded-md border border-white shadow-lg bg-black right-4 left-4">
+                        class="hidden fixed bottom-20 left-5 z-50 mt-2 w-1/2 rounded-md border border-white shadow-lg bg-black">
                         <li><a href="/movie?search=genre:action" class="block px-4 py-2 hover:bg-blue-700">Action</a>
                         </li>
                         <li><a href="/movie?search=genre:adventure"
