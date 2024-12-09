@@ -57,12 +57,13 @@
             </div>
 
             <div class="row mb-8">
-                <label for="plan" class="col-md-4 mb-8 col-form-label text-sm text-md-end font-semibold">{{ __('Rencana') }}</label>
+                <label for="plan"
+                    class="col-md-4 mb-8 col-form-label text-sm text-md-end font-semibold">{{ __('Rencana') }}</label>
 
                 <div class="col-md-6">
                     <?php 
                         use App\Models\Plan;
-                        $plans = Plan::all();
+$plans = Plan::all();
                     ?>
                     <select name="plan_id"
                         class="w-full py-2.5 px-3 mt-2 rounded-sm border border-blue-500 bg-gray-800 bg-opacity-65 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white">
@@ -153,8 +154,16 @@
                     placeholder="Konfirmasi kata sandi">
             </div>
 
-            <div class="col-md-6">
-                <?php<? foreach ($plans as $plan): ?>
+
+            <div class="row mb-8">
+                <label for="plan"
+                    class="col-md-4 mb-8 col-form-label text-sm text-md-end font-semibold">{{ __('Rencana') }}</label>
+
+                <div class="col-md-6">
+                    <?php 
+                       
+                        $plans = Plan::all();
+                    ?>
                     <select name="plan_id"
                         class="w-full py-2.5 px-3 mt-2 rounded-sm border border-blue-500 bg-gray-800 bg-opacity-65 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-white">
                         <option value="" selected>- Pilih Paket -</option>
@@ -170,6 +179,7 @@
                         </p>
                     @enderror
                 </div>
+            </div>
 
             <div class="flex items-center justify-between mt-4">
                 <button type="submit"
